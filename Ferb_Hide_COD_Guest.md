@@ -60,12 +60,12 @@ Search for **"Hide, Sort, Rename Payment Methods"** on the Shopify App Store and
 **Step 2: Access the Dashboard**
 From your Shopify Admin, go to **Apps** and select **Hide, Sort, Rename Payment Methods**.
 
-![App Dashboard](screenshots/02_dashboard_main.png)
+![App Dashboard](screenshots/hide_01_dashboard.png)
 
 **Step 3: Create a New "Hide" Rule**
 On the main dashboard, click on the **Create New Rule** button. Select **"Hide Payment Methods"** as your action type.
 
-![Create Customization](screenshots/03_customization_modal.png)
+![Create Customization](screenshots/hide_02_customization_menu.png)
 
 **Step 4: Select Your Target Method**
 In the "Payment Method" dropdown, search for and select **"Cash on Delivery (COD)"**. If you've renamed it manually (e.g., "Pay on Delivery"), select that name.
