@@ -117,7 +117,7 @@ Here's the exact process. Takes under 5 minutes.
 3. Click **Add app** and authorize it in your Shopify Admin
 4. Once installed, open the app from **Apps > MIT Payment Hider**
 
-![MIT Payment Hider App Dashboard](screenshots/02_dashboard_main.png)
+![MIT Payment Hider App Dashboard](screenshots/hide_01_dashboard.png)
 
 *The MIT Payment Hider app dashboard in Shopify Admin*
 
@@ -127,7 +127,7 @@ Here's the exact process. Takes under 5 minutes.
 2. Select **"Rename Payment Method"** as your action type
 3. Give your rule a descriptive name (e.g., "Rename COD to show fee")
 
-![Create New Customization](screenshots/01_app_dashboard_create_customization.png)
+![Create New Customization](screenshots/rename_02_customization_menu.png)
 
 *Click "Create New Customization" and select your rule type from the modal*
 
@@ -143,7 +143,7 @@ Here's the exact process. Takes under 5 minutes.
 
 **Tip:** If you have multiple methods (e.g., "Credit Card via Stripe" and "Credit Card via Razorpay"), choose carefully.
 
-![Payment Method Selection Dropdown](screenshots/08_cod_selected.png)
+![Payment Method Selection Dropdown](screenshots/rename_05_payment_selected.png)
 
 *Select the payment method you want to rename from the dropdown list*
 
@@ -166,7 +166,7 @@ Here's the exact process. Takes under 5 minutes.
 
 **Character limit:** Aim for under 50 characters. Shopify checkout UI can handle ~80, but mobile screens truncate long names.
 
-![Rename Form Field Example](screenshots/13_rename_filled.png)
+![Rename Form Field Example](screenshots/rename_06_name_entered.png)
 
 *Enter your custom payment method name in the rename field*
 
@@ -199,7 +199,7 @@ This is where MIT Payment Hider shines. You can rename payment methods **conditi
 3. Set the logic (equals, contains, greater than, etc.)
 4. Enter the value
 
-![Conditional Rule Setup](screenshots/06_customer_custom_form.png)
+![Conditional Rule Setup](screenshots/rename_03_form.png)
 
 *Use conditional rules to show different payment method names based on customer attributes, location, or language*
 
@@ -227,7 +227,7 @@ This is where MIT Payment Hider shines. You can rename payment methods **conditi
 
 ✅ If the new name appears correctly, you're done!
 
-![Before and After Comparison](screenshots/13_rename_filled.png)
+![Before and After Comparison](screenshots/rename_06_name_entered.png)
 
 *Example: Transform generic "Manual Payment" into clear, actionable "Cash on Delivery - ₹50 Fee" to set customer expectations*
 
